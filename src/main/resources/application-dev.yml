@@ -4,10 +4,15 @@ server:
       charset: utf-8
       force: true
   port: 8080
+
 spring:
+  mustache:
+    servlet:
+      expose-session-attributes: true
+      expose-request-attributes: true
   datasource:
-    url: jdbc:h2:mem:test;MODE=MySQL
     driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:test;MODE=MySQL # 방언설정
     username: sa
     password:
   h2:
@@ -15,11 +20,9 @@ spring:
       enabled: true
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: create #스프링 서버 실행 될때 테이블 생성 하겠다.
     show-sql: true
+
     properties:
       hibernate:
         format_sql: true
-  output:
-    ansi:
-      enabled: always

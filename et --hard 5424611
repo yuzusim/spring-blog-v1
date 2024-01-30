@@ -1,0 +1,137 @@
+[33mcommit f23f994b8f71b6f74bbd6f1b6507629e98a1095c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: jaybon1 <ponggas2@gmail.com>
+Date:   Thu Aug 10 15:59:08 2023 +0900
+
+    자바스크립트 검증 완료 - 공백
+
+[33mcommit 73f8601ef62dc14e916cdab537a4722b37f0cdd0[m
+Author: jaybon1 <ponggas2@gmail.com>
+Date:   Thu Aug 10 15:28:25 2023 +0900
+
+    봉준아 keyword 검색 완료했어-보고있지?
+
+[33mcommit 971b1e78860b66bb0b30e31a64c4bff96db8bc11[m
+Author: jaybon1 <ponggas2@gmail.com>
+Date:   Thu Aug 10 11:51:49 2023 +0900
+
+    검색 완료 - 페이징 검색 남음
+
+[33mcommit 7bae06c61caacde874f1257791a3a363e9fc1109[m
+Author: jaybon1 <ponggas2@gmail.com>
+Date:   Thu Aug 10 09:58:07 2023 +0900
+
+    회원가입시 비밀번호 해시하기
+
+[33mcommit 7d6434021cd2f4d21b00c838677915333c4983f4[m
+Author: jaybon1 <ponggas2@gmail.com>
+Date:   Wed Aug 9 11:48:25 2023 +0900
+
+    댓글삭제완료
+
+[33mcommit c356f42caefbbdd194adf3e66c32fd93e422e20d[m
+Author: jaybon1 <ponggas2@gmail.com>
+Date:   Tue Aug 8 16:13:21 2023 +0900
+
+    동적쿼리 readme 추가
+
+[33mcommit 446cded848879571beaad799f9a3a6c6e43124be[m
+Author: jaybon1 <ponggas2@gmail.com>
+Date:   Tue Aug 8 15:19:05 2023 +0900
+
+    게시글 상세보기 - 댓글 리스트 동적쿼리 완료
+
+[33mcommit a12f4766365a8ac3ecac01db7c141da17eb534ec[m
+Author: jaybon1 <ponggas2@gmail.com>
+Date:   Tue Aug 8 14:43:13 2023 +0900
+
+    댓글 상세보기 완료
+
+[33mcommit 98f6bba116e75dce222bd5d0942a82181d9cace4[m
+Author: jaybon1 <ponggas2@gmail.com>
+Date:   Tue Aug 8 11:38:36 2023 +0900
+
+    댓글쓰기 완료
+
+[33mcommit 8d72f2e04b54c4c8b6dc1cd359e0fdf438af3957[m
+Author: metacoding <getinthere@naver.com>
+Date:   Mon Aug 7 18:49:14 2023 +0900
+
+    layout 앞에 / 삭제
+
+[33mcommit 3f9919553d3c2831ea16c6c1244310cbab205319[m
+Author: jaybon1 <ponggas2@gmail.com>
+Date:   Mon Aug 7 15:48:21 2023 +0900
+
+    유저네임 중복체크 ajax 통신
+
+[33mcommit f34dbc34e2fb6db0e7cd54e37471a50e1bd13a0a[m
+Author: jaybon1 <ponggas2@gmail.com>
+Date:   Wed Aug 2 16:36:32 2023 +0900
+
+    게시글 수정하기 완료
+
+[33mcommit b32985dfc77f03f44d3276a9fa2d8e12eb93df62[m
+Author: jaybon1 <ponggas2@gmail.com>
+Date:   Wed Aug 2 15:28:35 2023 +0900
+
+    게시글 삭제 완료
+
+[33mcommit b0e32ffbbb99ee7da3876ccc588b356ae46b734d[m
+Author: jaybon1 <ponggas2@gmail.com>
+Date:   Wed Aug 2 12:46:52 2023 +0900
+
+    게시글 상세보기 완료
+
+[33mcommit c1910ea333fd48910a3acd4fd472752a8ea88a68[m
+Author: jaybon1 <ponggas2@gmail.com>
+Date:   Wed Aug 2 11:15:21 2023 +0900
+
+    게시글 목록보기 페이징 완료
+
+[33mcommit 77a3e0b550f0a7d05b241c1488f35042893cffff[m[33m ([m[1;31morigin/list[m[33m)[m
+Author: jaybon1 <ponggas2@gmail.com>
+Date:   Tue Aug 1 17:50:56 2023 +0900
+
+    게시글목록보기완료
+
+[33mcommit 913a1d582a90ad94dc9461480b65f33506d7361c[m[33m ([m[1;31morigin/write[m[33m)[m
+Author: jaybon1 <ponggas2@gmail.com>
+Date:   Tue Aug 1 12:45:42 2023 +0900
+
+    글쓰기완료
+
+[33mcommit 1c1487be1134b667006a8cf3b95731f75eb943ae[m[33m ([m[1;31morigin/login[m[33m)[m
+Author: jaybon1 <ponggas2@gmail.com>
+Date:   Tue Aug 1 10:54:15 2023 +0900
+
+    로그인 기능 완료
+
+[33mcommit 5cbab7e8fff2206b64c33008c97bfae3d69735e8[m[33m ([m[1;31morigin/join[m[33m)[m
+Author: jaybon1 <ponggas2@gmail.com>
+Date:   Tue Aug 1 09:19:07 2023 +0900
+
+    회원가입 예외처리하기
+
+[33mcommit df58ae5cc8726eed73a23aef71f4a46d2bc2acff[m
+Author: jaybon1 <ponggas2@gmail.com>
+Date:   Fri Jul 28 15:52:45 2023 +0900
+
+    회원가입 완료
+
+[33mcommit 54246119e8016b126b3c448baf7998dc1650bbbb[m[33m ([m[1;31morigin/view[m[33m)[m
+Author: jaybon1 <ponggas2@gmail.com>
+Date:   Wed Jul 26 15:50:40 2023 +0900
+
+    화면 구현 완료
+
+[33mcommit f20ae2d06dcb31f7db002a3f72b198d9acc293f5[m
+Author: jaybon1 <ponggas2@gmail.com>
+Date:   Wed Jul 26 10:11:33 2023 +0900
+
+    [fix] 초기세팅완료
+
+[33mcommit 247d6b4207312d7a2a4fa37ab01588ee56d180f8[m
+Author: jaybon1 <ponggas2@gmail.com>
+Date:   Tue Jul 25 15:51:12 2023 +0900
+
+    세팅완료
