@@ -7,15 +7,16 @@ import lombok.Data;
  */
 
 public class UserRequest {
+    // 항아리 만들기 -> 요청받는 데이터
     @Data
-    public static class joinDTO{ // 항아리 만들기 -> 요청받는 데이터, user한테 요청 되는 데이터
+    public static class joinDTO{ // join 할때 user한테 요청 되는 데이터
         private String username;
         private String password;
         private String email;
     }
 
     @Data
-    public static class loginDTO{ // user한테 요청 되는 데이터
+    public static class loginDTO{ // login 할때 user한테 요청 되는 데이터
         private String username;
         private String password;
     }
