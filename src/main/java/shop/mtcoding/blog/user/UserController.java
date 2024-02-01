@@ -35,6 +35,7 @@ public class UserController {
 //        this.userRepository = userRepository;
 //    }
 
+
     @PostMapping("/login") // @PostMapping login만 예외임
     public String login(UserRequest.loginDTO requestDTO){
         System.out.println(requestDTO);
@@ -77,11 +78,17 @@ public class UserController {
             return "error/400";
         }
 
-        // 2.model에게 위임하기
-        //userRepository.save(requestDTO);
-        userRepository.save(requestDTO);
-
-
+        // 2. 동일 Username 체크 -> 나중에 하나의 트랜잭션으로 묶기
+        // 트라이캐치 -> 어떤 에러를 돌려 줘야 할지 판단하기 어렵다.
+        // 내가 코드 구현
+        User  user = userRepository.findByUsername(requestDTO.getUsername());
+        if (user == null) {
+            // 3. model에게 위임하기
+            userRepository.save(requestDTO);
+        }else {
+            return "error/401";
+        }
+        
         // DB insert
         return "redirect:/loginForm";
     }
@@ -103,6 +110,15 @@ public class UserController {
 
     @GetMapping("/logout")
     public String logout() {
+        session.invalidate(); // 1번 서랍안에 있는 내용을 다 삭제
+        // 어트리뷰트 키 값만 날라가므로 invalidate()를 써서 서랍안을 다 비운다.
+        // 1.
+        // 2. 서버가 서랍을 비운다. -> 내가 키를 들고 있어서 접근해도 아무 것도 없다.
+        // 세션 저장소 유효기간 30분 -> 길지 않게 메모리를 많이 잡아 먹음
+        // 세션 저장소 : 웹.엑스엠엘 설정가능하지만
+        // 애플리케이션에서 설정 해줄 수 있다.
+        //
+
         return "redirect:/";
     }
 }

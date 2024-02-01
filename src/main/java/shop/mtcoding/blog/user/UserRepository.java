@@ -41,6 +41,7 @@ public class UserRepository { //DAO
         query.setParameter(1, requestDTO.getUsername());
         query.setParameter(2, requestDTO.getPassword());
 
+        // TODO :
         try {
             User user = (User) query.getSingleResult(); //
             return user; //
@@ -48,7 +49,19 @@ public class UserRepository { //DAO
             return null;
         }
 
+    }
 
+    public User findByUsername(String username) {
+        Query query  = em.createNativeQuery("select * from user_tb where username=?", User.class);
+        query.setParameter(1, username);
+
+        try {
+            User user = (User) query.getSingleResult();
+            return user;
+        }catch (Exception e){
+            return null;
+        }
+        //
 
     }
 }
