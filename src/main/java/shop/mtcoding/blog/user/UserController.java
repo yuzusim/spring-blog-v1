@@ -1,14 +1,12 @@
 package shop.mtcoding.blog.user;
 
+import jakarta.servlet.http.HttpSession;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-import java.io.BufferedReader;
-import java.io.Reader;
+
 
 /**
  * 컨트롤러의 책임
@@ -28,6 +26,7 @@ public class UserController {
 
 
     private final UserRepository userRepository;
+    // Ioc 컨테이너에 세션에 접근할수 있는 변수가들어가 있음, DI하면 됨
     private final HttpSession session;
 
 //    public UserController(UserRepository userRepository) {

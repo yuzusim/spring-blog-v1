@@ -1,8 +1,24 @@
 package shop.mtcoding.blog.board;
 
-public class BoardResonse {
+import lombok.AllArgsConstructor;
+import lombok.Data;
 
-    public static  class  DetaillDTO{
+import java.sql.Timestamp;
+
+public class BoardResponse {
+    // bt.id, bt.title, bt.content, bt.created_at, bt.user_id, ut.username
+    @AllArgsConstructor
+    @Data
+    public static  class DetaillDTO{
+        private Integer id;
+        private String title;
+        private String content;
+        private Timestamp createdAT;
+        private Integer userId;
+        private String username;
+
 
     }
 }
+
+//
