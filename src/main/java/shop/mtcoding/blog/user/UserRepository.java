@@ -24,7 +24,7 @@ public class UserRepository { //DAO
         query.setParameter(2, requestDTO.getPassword());
         query.setParameter(3, requestDTO.getEmail());
 
-        query.executeUpdate();
+        query.executeUpdate(); //dpgb
     }
 
     @Transactional
