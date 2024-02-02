@@ -18,7 +18,7 @@ public class BoardRepository {
         BigInteger count = (BigInteger) query.getSingleResult();
         return count.intValue();
     }
-
+    
 
     public List<Board> findAll(int page){ // 모든 걸 다 조회
         final int COUNT = 3;
@@ -28,11 +28,10 @@ public class BoardRepository {
         query.setParameter(1, value);
         query.setParameter(2, COUNT);
 
-        List<Board> boardList = query.getResultList(); //여러건
+        List<Board> boardList = query.getResultList(); // 여러건
         return boardList;
 
 
-        // 전체 아이템 수 조회
 
     }
 //    public int totalc(){
