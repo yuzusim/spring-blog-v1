@@ -1,10 +1,11 @@
 package shop.mtcoding.blog.user;
 
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.Query;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.persistence.EntityManager;
-import javax.persistence.Query;
+
 
 @Repository
 public class UserRepository { //DAO
